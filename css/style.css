@@ -16,6 +16,9 @@ button{
     border-color: rgb(119, 73, 248);
 }
 
+
+    
+
 button:hover{
     background-color: white;
     color:  rgb(119, 73, 248);
@@ -27,6 +30,7 @@ button:hover{
     justify-content: space-between;
     align-items: center;
     position: relative;
+    margin-bottom: 120px;
 }
 
 .header-title{
@@ -36,10 +40,11 @@ button:hover{
 }
 
 .header-ul{
-    list-style-type: none;
     display: inline-flex;
     gap: 30px;
-    align-items: center;   
+    align-items: center; 
+    list-style-type: none;
+  
 }
 
 .header-li{
@@ -70,24 +75,78 @@ button:hover{
 
 /* main */
 
-.section{
+.main-section-beginning{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 200px;
 }
 
-.section-p{
-    max-width: 500px;
 
-}
 
-.section-block{
+.main-section-title{
+    margin: 0;
+    padding-bottom: 24px;
+    font-size: 55px;
     width: 534px;
-    height: 132px;
+}
+
+.section-p{
+    margin: 0;
+    max-width: 500px;
+    padding-bottom: 24px;
 
 }
 
 
+.main-section-centre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 160px;
+
+}
+
+.padding-section{
+    padding-right: 140px;
+}
+
+.main-section-last{
+    /* display: flex; */
+    margin-bottom: 160px;
+
+}
+
+.main-section-title-last{
+    padding-right: 80px;
+    width: 616px;
+    height: 174px;
+    font-size: 48px;
+}
+
+.main-div-last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-but-last{
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+}
+
+.section-p-last{
+    display: flex;
+    margin: 0;
+    max-width: 500px;
+    flex-direction: column;
+    
+}
+
+.main-img-last{
+    display: flex;
+    justify-content: center;
+}
 
 /* footer */
