@@ -22,8 +22,25 @@ button:hover{
     color:  rgb(119, 73, 248);
 }
 
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #37474F;
+}
+
+h1,
+h2{
+    color: #263238;
+
+}
+
 .subline-text{
     color: #37474F;
+}
+
+.title-text{
+    color: #263238;
 }
 
 .secondary{
@@ -91,6 +108,7 @@ button:hover{
 /* main */
 .main-section-beginning{
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
     margin-bottom: 280px;
@@ -128,10 +146,15 @@ button:hover{
 
 .main-section-centre{
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
     margin-bottom: 160px;
 
+}
+
+.section-beginning-content{
+    padding-right: 28px;
 }
 
 .padding-section{
@@ -139,7 +162,6 @@ button:hover{
 }
 
 .main-section-last{
-    /* display: flex; */
     margin-bottom: 160px;
 
 }
@@ -155,6 +177,7 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 80px;
 }
 
 .main-but-last{
@@ -186,8 +209,9 @@ button:hover{
 .underground-footer{
     display: flex;
     gap: 24px;
-    justify-content: space-around;
-    padding-top: 32px;
+    justify-content: space-between;
+    padding-top: 80px;
+    width: 100%;
 }
 
 .footer-ul{
